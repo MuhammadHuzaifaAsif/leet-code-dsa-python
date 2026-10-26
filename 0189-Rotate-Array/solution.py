@@ -1,11 +1,21 @@
 class Solution(object):
-    def rotate(self, nums, k):
-        l=len(nums)
-        k = k%l
-        list=nums[::-1]
-        l=len(nums)
-        # print(list)
-        final=list[0:k][::-1]+list[k:l][::-1]
-        nums[:]=final
-        print(nums)
-                
+    def reverseBits(self, n):
+        answer=""
+        fanswer=0
+        j=0
+        while(n!=0):
+            rem=n%2
+            answer=str(rem)+answer
+            n=n//2
+        print(answer)
+        data=list(answer)
+        print(data)
+        reversedata=data[::-1]
+
+
+        for i in reversedata:
+  # print(i)
+            fdata=int(i)*2**j
+            j+=1
+            fanswer=fdata+fanswer
+        return fanswer              
