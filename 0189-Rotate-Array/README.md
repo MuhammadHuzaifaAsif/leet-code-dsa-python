@@ -51,7 +51,7 @@ rotate 2 steps to the right: [3,99,-1,-100]
 ## Solution
 
 - **Language**: Python3
-- **Runtime**: 23 ms
+- **Runtime**: 18 ms
 - **Memory**: 12.2 MB
 
 ---
