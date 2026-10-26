@@ -3,7 +3,7 @@ class Solution(object):
         answer=""
         fanswer=0
         j=0
-        while(n!=0):
+        for _ in range(32):
             rem=n%2
             answer=str(rem)+answer
             n=n//2
