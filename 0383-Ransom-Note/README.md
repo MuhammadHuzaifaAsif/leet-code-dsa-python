@@ -40,7 +40,7 @@ Example 3:
 
 - **Language**: Python3
 - **Runtime**: 0 ms
-- **Memory**: 12.3 MB
+- **Memory**: 12 MB
 
 ---
 
