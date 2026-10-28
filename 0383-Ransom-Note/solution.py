@@ -13,7 +13,7 @@ class Solution(object):
             m=Counter(magazine)
             if(r==m):
                 for letter in r:
-                    if(letter[r]>letter[m]):
+                    if(r[letter]>m[letter]):
                         return False
                     else:
                         return True
