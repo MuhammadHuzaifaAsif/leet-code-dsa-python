@@ -39,8 +39,8 @@ Example 3:
 ## Solution
 
 - **Language**: Python3
-- **Runtime**: 0 ms
-- **Memory**: 12.2 MB
+- **Runtime**: 1 ms
+- **Memory**: 12.1 MB
 
 ---
 
