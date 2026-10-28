@@ -12,7 +12,11 @@ class Solution(object):
             r=Counter(ransomNote)
             m=Counter(magazine)
             if(r==m):
-                return True
+                for letter in r:
+                    if(letter[r]>letter[m]):
+                        return False
+                    else:
+                        return True
             else:
                 return False
 
